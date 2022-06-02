@@ -109,36 +109,6 @@
         ["xpath=//div[@id='add']/div/button", "xpath:idRelative"],
         ["xpath=//button", "xpath:position"],
         ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "24fedd5a-eb43-4cba-a143-c9000fb39d59",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.snipcart-cart-button__icon--right",
-      "targets": [
-        ["css=.snipcart-cart-button__icon--right", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "3efe0d05-fd0f-4818-a5d9-31637e6c4bad",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "css=.snipcart-cart-button__icon--right",
-      "targets": [
-        ["css=.snipcart-cart-button__icon--right", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "834443e8-28d0-4756-b160-afda638db286",
-      "comment": "",
-      "command": "click",
-      "target": "css=.snipcart-cart-button__icon--right",
-      "targets": [
-        ["css=.snipcart-cart-button__icon--right", "css:finder"]
-      ],
-      "value": ""
-    }]
   }],
   "suites": [{
     "id": "6c2aad4e-f1f4-4dc2-b8c3-0baa241d1568",
