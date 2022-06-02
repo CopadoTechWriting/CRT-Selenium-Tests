@@ -1,0 +1,153 @@
+{
+  "id": "ff4c57e5-8784-41cd-adac-4cd2befa8f8e",
+  "version": "2.0",
+  "name": "Selenium Tests",
+  "url": "https://qentinelqi.github.io",
+  "tests": [{
+    "id": "663655a9-4171-4fc2-bf0b-3deec7793193",
+    "name": "Selenium Test Scripts",
+    "commands": [{
+      "id": "54e6fc1a-cfc0-4037-be90-2798c205e8d9",
+      "comment": "",
+      "command": "open",
+      "target": "/shop/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7a3e62e-40de-4368-99f5-b0cc351582c4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1055",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dac6bfff-a2bf-4fa4-a366-f5bd283d2ee0",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Find your spirit animal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d330e4e4-c6f0-466c-91b0-d9e1d44dddf7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Gerald the Giraffe",
+      "targets": [
+        ["linkText=Gerald the Giraffe", "linkText"],
+        ["css=li:nth-child(3) > .product-details a", "css:finder"],
+        ["xpath=//a[contains(text(),'Gerald the Giraffe')]", "xpath:link"],
+        ["xpath=//div[@id='products']/section/div/ul/li[3]/div[2]/h4/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/shop/products/giraffe/')])[2]", "xpath:href"],
+        ["xpath=//li[3]/div[2]/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Gerald the Giraffe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef31cf51-43c1-4dc7-b56f-18d317c102f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-add-item",
+      "targets": [
+        ["css=.snipcart-add-item", "css:finder"],
+        ["xpath=//div[@id='add']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "962bad3d-da76-4503-972a-4c4757b58dac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-modal__close-title",
+      "targets": [
+        ["css=.snipcart-modal__close-title", "css:finder"],
+        ["xpath=//div[@id='snipcart']/div/div/header/button/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continue shopping')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f224777d-9da7-44ef-82d5-91fb174462cf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Products",
+      "targets": [
+        ["linkText=Products", "linkText"],
+        ["css=a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Products')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/shop/\n')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Products')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e597e002-0f76-4a20-9faf-1e29d22ddd4f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Scar the Lion",
+      "targets": [
+        ["linkText=Scar the Lion", "linkText"],
+        ["css=li:nth-child(5) > .product-details a", "css:finder"],
+        ["xpath=//a[contains(text(),'Scar the Lion')]", "xpath:link"],
+        ["xpath=//div[@id='products']/section/div/ul/li[5]/div[2]/h4/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/shop/products/lion/')])[2]", "xpath:href"],
+        ["xpath=//li[5]/div[2]/h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Scar the Lion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8155135-915c-47b6-9466-f96867861903",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-add-item",
+      "targets": [
+        ["css=.snipcart-add-item", "css:finder"],
+        ["xpath=//div[@id='add']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24fedd5a-eb43-4cba-a143-c9000fb39d59",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.snipcart-cart-button__icon--right",
+      "targets": [
+        ["css=.snipcart-cart-button__icon--right", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3efe0d05-fd0f-4818-a5d9-31637e6c4bad",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.snipcart-cart-button__icon--right",
+      "targets": [
+        ["css=.snipcart-cart-button__icon--right", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "834443e8-28d0-4756-b160-afda638db286",
+      "comment": "",
+      "command": "click",
+      "target": "css=.snipcart-cart-button__icon--right",
+      "targets": [
+        ["css=.snipcart-cart-button__icon--right", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6c2aad4e-f1f4-4dc2-b8c3-0baa241d1568",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["663655a9-4171-4fc2-bf0b-3deec7793193"]
+  }],
+  "urls": ["https://qentinelqi.github.io/"],
+  "plugins": []
+}
